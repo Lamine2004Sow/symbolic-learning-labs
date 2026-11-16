@@ -1,0 +1,37 @@
+{
+  "sepal_length": {
+    "type:": "TypeFeature.Numerical",
+    "encoder:": "None"
+  },
+  "sepal_width": {
+    "type:": "TypeFeature.Numerical",
+    "encoder:": "None"
+  },
+  "petal_length": {
+    "type:": "TypeFeature.Numerical",
+    "encoder:": "None"
+  },
+  "petal_width": {
+    "type:": "TypeFeature.Numerical",
+    "encoder:": "None"
+  },
+  "species": {
+    "type:": "ProblemType.Classification",
+    "encoder:": "LabelEncoder",
+    "classes:": [
+      "setosa",
+      "versicolor",
+      "virginica"
+    ],
+    "binary_conversion:": {
+      "Method": "MultiClassToBinaryMethod.OneVsRest",
+      "0": [
+        0,
+        1
+      ],
+      "1": [
+        2
+      ]
+    }
+  }
+}

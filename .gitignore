@@ -1,0 +1,8 @@
+.ipynb_checkpoints/
+__pycache__/
+# fichiers fournis par le cours (non redistribués)
+tp1-dtree-ws-2425.ipynb.json
+medspe.tsv
+**/medspe.tsv
+TP_XAI_PyXAI/data/adult.data
+TP_XAI_PyXAI/data/adult.csv
